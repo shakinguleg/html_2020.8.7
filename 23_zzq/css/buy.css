@@ -1,0 +1,102 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-size: 12px;
+    background-color: #e3e4e5;
+
+}
+
+a{
+    color: #999;
+    text-decoration: none;
+}
+
+
+.header_wrap{
+    overflow: hidden;
+    background-color: white;
+    box-shadow: 1px solid #ddd;
+}
+
+.header{
+    background-color: white;
+    height: 140px;
+    width: 1190px;
+    margin: 0 auto;
+    position: relative;
+}
+
+.header .shoppingcart{
+    position: absolute;
+    top: 25px;
+    right: 230px;
+    width: 130px;
+    height: 34px;
+    border: 1px solid #eee;
+    text-align: center;
+    line-height: 34px;
+}
+
+.header .shoppingcart:hover{
+    border: 1px solid red;
+}
+
+
+
+.group_wrap{
+    background-color: #666;
+    width: 860px;
+    margin: 10px auto;
+    overflow: hidden;
+}
+
+.group{
+    width: 880px;
+    overflow: hidden;
+}
+
+.block{
+    width: 198px;
+    margin-right: 20px;
+    float: left;
+    margin-bottom: 10px;
+}
+
+.block:hover{
+    box-shadow: 0 15px 30px rgba(0,0,0,.1);
+    transform: translate3d(0,-2px,0);
+    z-index: 2;
+}
+
+.block img{
+    width: 200px;
+}
+
+.block p{
+    font-size: 16px;
+    line-height: 16px;
+}
+
+.block span{
+    display: block;
+    margin: 10px 0;
+    font-size: 12px;
+}
+
+.block .buy{
+    float: left;
+    border: 1px solid #eee;
+    background: url("../img/cart1.png") no-repeat left 3px center;
+}
+.block .buy:hover{
+    background-color: white;
+    border:  1px solid red;
+}
+
+
+.buy .add{
+    margin-left: 34px;
+    font-size: 14px;
+    cursor: pointer;
+}
+
