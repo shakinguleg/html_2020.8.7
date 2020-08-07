@@ -5,6 +5,8 @@
 
 ## 初始化版本库
 - git init
+- 如果是clone别人的仓库, 则不需要初始化. 别人已经做过了且含有.git文件.
+- 同理origin别人也已经配置过
 
 ## 添加文件到暂存区
 - git add .
@@ -31,7 +33,7 @@
 - git reset --hard xxxx
 - git reset --hard HEAD^ (上个版本)
 
-## 移除工作区上次操作
+## 移除暂存区上次操作
 - git reset
 
 ## 关联远程仓库
@@ -47,10 +49,11 @@
 - git remote -v
 
 ## 查看log历史
-- git log --oneline (只带有注释)
-- git log --oneline --graph (有连线界面)
+- git log --oneline (仅有注释)
+- git log --oneline --graph (有修改历史界面)
 
 ## 存储当前工作状态(add过, 但还未commmit)
 - git stash (存储)
-<!-- 之后就可以切换到其他分支 -->
+<!-- 之后就可以切换到其他分支, 等到其他分支修改完毕后-->
+<!-- 弹出之前工作区继续工作 -->
 - git stash pop
