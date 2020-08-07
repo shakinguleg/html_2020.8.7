@@ -35,10 +35,13 @@
 - git reset
 
 ## 关联远程仓库
-- git remote add origin 仓库地址
+- git remote add origin(节点名称自定义) 仓库地址
 - git push -u origin master 设置默认远程仓库和分支
 - git push 后面直接提交
 
+## 重新设置节点名称
+-git remote rm origin 移除远程origin节点名称
+-git remote add xxx 仓库名称
 
 ## 查看远程仓库
 - git remote -v
