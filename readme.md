@@ -37,8 +37,8 @@
 ## 关联远程仓库
 - git remote add origin 仓库地址
 - git push -u origin master 设置默认远程仓库和分支
-- git push 后面直接提交
-
+- git push 后面直接提
+## 在线修改
 
 ## 查看远程仓库
 - git remote -v
