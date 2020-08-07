@@ -49,3 +49,8 @@
 ## 查看log历史
 - git log --oneline (只带有注释)
 - git log --oneline --graph (有连线界面)
+
+## 存储当前工作状态(add过, 但还未commmit)
+- git stash (存储)
+<!-- 之后就可以切换到其他分支 -->
+- git stash pop
