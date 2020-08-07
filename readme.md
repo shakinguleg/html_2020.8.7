@@ -46,8 +46,6 @@
 ## 查看远程仓库
 - git remote -v
 
-## 
-git log --graph --pretty=oneline --abbrev-commit
-
-
-test2分支的修改
+## 查看log历史
+- git log --oneline (只带有注释)
+- git log --oneline --graph (有连线界面)
